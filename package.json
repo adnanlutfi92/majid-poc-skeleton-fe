@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:staged": "lint-staged",
+    "format": "prettier --write ./src",
     "test": "vitest",
     "prepare": "husky"
   },
@@ -24,6 +26,8 @@
     "@vitejs/plugin-react": "^4.3.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.12",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
     "husky": "^9.1.6",
     "jsdom": "^25.0.0",
     "lint-staged": "^15.2.10",
