@@ -2,7 +2,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@r
 import Link from 'next/link'
 import React from 'react'
 
-const ContactPage: React.FC = () => {
+export default function ContactPage() {
   return (
     <div className="flex flex-col items-center gap-3 min-h-screen justify-center">
       <h1>Contact Us</h1>
@@ -49,5 +49,3 @@ const ContactPage: React.FC = () => {
     </div>
   )
 }
-
-export default ContactPage
