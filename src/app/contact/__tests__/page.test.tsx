@@ -2,7 +2,7 @@ import { expect, test } from 'vitest'
 import { render, screen } from '@testing-library/react'
 import ContactPage from '../page'
 
-test('Home', () => {
+test('ContactPage', () => {
   render(<ContactPage />)
   expect(screen.getByRole('heading', { level: 1, name: 'Contact Us' })).toBeDefined()
   expect(screen.getByRole('textbox', { name: 'Name:' })).toBeDefined()
