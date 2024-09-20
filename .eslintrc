@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "arrowParens": "always",
+        "bracketSpacing": true,
+        "quoteProps": "as-needed",
+        "semi": false,
+        "singleQuote": true,
+        "printWidth": 120,
+        "trailingComma": "none"
+      }
+    ],
+    "newline-before-return": "error"
+  }
+}
