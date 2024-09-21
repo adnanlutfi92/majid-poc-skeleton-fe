@@ -9,7 +9,7 @@
     "lint": "next lint",
     "lint:staged": "lint-staged",
     "format": "prettier --write ./src",
-    "test": "vitest ./",
+    "test": "vitest ./src",
     "test:e2e": "playwright test",
     "prepare": "husky"
   },
