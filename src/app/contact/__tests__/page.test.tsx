@@ -11,5 +11,5 @@ test('ContactPage', () => {
   expect(screen.getByRole('button', { name: 'Is it accessible?' })).toBeDefined()
   expect(screen.getByRole('button', { name: 'Is it styled?' })).toBeDefined()
   expect(screen.getByRole('button', { name: 'Is it animated?' })).toBeDefined()
-  expect(screen.getByRole('link', { name: 'Homes' })).toBeDefined()
+  expect(screen.getByRole('link', { name: 'Home' })).toBeDefined()
 })
